@@ -1,0 +1,13 @@
+.MediaListDetails {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.MediaListDetails a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    background: gray;
+
+}

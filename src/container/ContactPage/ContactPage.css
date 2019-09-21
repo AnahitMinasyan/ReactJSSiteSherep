@@ -1,0 +1,79 @@
+.ContactPage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+}
+
+.ContactMap {
+    width: 50%;
+    height: 100vh;
+
+}
+
+.ContactMap div{
+    width: 50%;
+}
+
+.ContactPageContent {
+    height:600px;
+    margin: 200px auto;
+
+}
+
+.ContactPageContent h1 {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 200;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+.ContactPageForm {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ContactInputField {
+    margin-bottom: 20px;
+}
+
+.ContactInputField input{
+    border: 1px solid grey;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    font-size: 16px;
+    width: 570px;
+    padding: 8px;
+
+}
+
+.ContactInputField textarea {
+    border: 1px solid grey;
+    background: black;
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+    width: 570px;
+    height: 100px;
+    padding: 8px;
+}
+
+.SendButton{
+    border: 1px solid grey;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    width: 100px;
+    padding: 10px;
+}
+
+
+.footer {
+    display: none;
+}

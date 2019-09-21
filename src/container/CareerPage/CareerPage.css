@@ -1,0 +1,34 @@
+.CareerPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+}
+
+.CareerPageImg{
+    width: 50%;
+    height: 100vh;
+}
+
+.CareerPageImg img {
+    width: 95%;
+    /*height: 100wh;*/
+    height: 100%;
+}
+
+.CareerPageContent {
+    background: black;
+    width: 40%;
+    margin: 200px auto;
+}
+
+
+.CareerPageContent h1{
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 200;
+    opacity: 0.8;
+    text-transform: uppercase;
+}

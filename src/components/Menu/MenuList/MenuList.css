@@ -1,0 +1,44 @@
+.MenuAllList{
+    height: 350px;
+    padding-top: 30px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    scroll-snap-type: y;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    padding-top: 30px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 1px;
+}
+
+.MenuList{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+    justify-content: space-between;
+
+}
+
+
+.MenuContent {
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.MenuPrice {
+
+}

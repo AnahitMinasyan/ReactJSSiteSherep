@@ -1,0 +1,101 @@
+/* #region Default styles */
+
+body{
+    margin: 0;
+    padding: 0 0 0 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.Slider {
+    text-align: center;
+    position: relative;
+    /*overflow-x: hidden;*/
+    width: 360px;
+    height: 290px;
+
+}
+
+section {
+    padding: 20px 0;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+
+.gallery {
+    transition: all 0.3s linear;
+    cursor: pointer;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.gallery img {
+    width: 360px;
+    height: 320px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.gallery-slider-wrapper {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    transition: transform 300ms  cubic-bezier(1, 1, 0, 0);
+    width: 360px;
+    margin: auto;
+    overflow: hidden;
+}
+.gallery-slider-wrapper .gallery {
+    flex: 1;
+    /*min-width: 200px;*/
+    opacity: 0;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+
+        margin: auto;
+        overflow: hidden;
+}
+.gallerySlider.activeSlide-0 #img-0 ,
+.gallerySlider.activeSlide-1 #img-1,
+.gallerySlider.activeSlide-2 #img-2,
+.gallerySlider.activeSlide-3 #img-3,
+.gallerySlider.activeSlide-4 #img-4,
+.gallerySlider.activeSlide-5 #img-5,
+.gallerySlider.activeSlide-6 #img-6 {
+    opacity: 1;
+
+}
+
+
+.SlideButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*top: 150px;*/
+    align-items: center;
+   }
+
+
+.SlideButtons .LeftButton {
+
+    position: absolute;
+    margin-left: -75px;
+
+}
+
+.SlideButtons .RightButton{
+    position: absolute;
+    right: 75px
+}
+
+.sliderContent {
+    display: flex;
+    flex-direction: row
+}

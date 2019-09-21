@@ -1,0 +1,23 @@
+.dropdownLanguage{
+    background: transparent;
+}
+
+.dropdownLanguage button{
+    background: transparent;
+    color: white;
+    border: none;
+    width: 82px;
+}
+
+.dropdownToggleLanguage {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+

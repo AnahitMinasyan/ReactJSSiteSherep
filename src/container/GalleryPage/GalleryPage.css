@@ -1,0 +1,51 @@
+.GalleryPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.GalleryPageBack{
+    height: 100vh;
+    width: 50%;
+}
+
+.GalleryPageBack img {
+    height: 100%;
+    width: 95%;
+}
+
+.GalleryPageSlider{
+
+    background: black;
+    /*width: 40%;*/
+    margin: 200px auto;
+    overflow: hidden;
+     /* width: 480px;*/
+
+
+}
+
+.GalleryPageSlider h1 {
+    color: white;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 200;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+
+.GalleryPageSlider img {
+    width: 360px;
+    height: 320px;
+
+
+}
+
+.GalleryPageSlider .gallery-slider-wrapper {
+     display: flex;
+    flex-direction: row;
+}
