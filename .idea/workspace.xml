@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf11a79-3fd3-434d-9842-15183f2e0def" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/acorn" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/ansi-html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/babylon" beforeDir="false" />
@@ -26753,18 +26754,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Career/CareerList/CareerList.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -26865,6 +26861,7 @@
         <option value="$PROJECT_DIR$/src/container/GalleryPage/GalleryPage.js" />
         <option value="$PROJECT_DIR$/src/container/PagesFunctions/Slider/Slider.css" />
         <option value="$PROJECT_DIR$/src/container/PagesFunctions/Slider/Slider.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -26973,21 +26970,21 @@
       <workItem from="1568914708855" duration="3361000" />
       <workItem from="1568984449438" duration="2634000" />
       <workItem from="1568997631955" duration="6314000" />
-      <workItem from="1569061073342" duration="4303000" />
+      <workItem from="1569061073342" duration="4566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54567000" />
+    <option name="totallyTimeSpent" value="54830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50167227" side_tool="true" weight="0.22361946" />
       <window_info id="npm" order="1" sideWeight="0.50167227" side_tool="true" weight="0.22361946" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49832776" visible="true" weight="0.16402406" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49832776" visible="true" weight="0.16402406" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49972662" visible="true" weight="0.060240965" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49972662" visible="true" weight="0.40744796" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50027335" side_tool="true" weight="0.32858709" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -27383,15 +27380,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Career/CareerList/CareerList.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
