@@ -5,24 +5,11 @@ import axios from "../../../../axios-orders";
 
 const MenuItems = (props) => {
 
-    const getProds = (category) => {
-
-
-        axios.get('https://sherepsite-project.firebaseio.com/menu.json/').then(res => {
-            let newData = res.category;
-            let newNames = [];
-            for (let key in newData) {
-                newNames.push(newData[key])
-            }
-
-        })
-    };
-
     return (
         <div>
             <li className={classes.MenuButtons}>
                 <button
-                 onClick={getProds('food')}>
+                    onClick={() => props.chooseCategory(props.menuType)}>
                     {props.children}
                 </button>
             </li>

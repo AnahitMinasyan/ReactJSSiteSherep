@@ -36,6 +36,7 @@ class App extends Component {
                         <Route path='/news' component={NewsPage} exact/>
                         <Route path='/news/:id' component={NewsDetails}/>
                         <Route path='/career' component={CareerPage}/>
+                        <Route path='/career/:id' component={CareerPage}/>
                         <Route path='/contact' component={ContactPage}/>
                     </Switch>
                 </Layout>

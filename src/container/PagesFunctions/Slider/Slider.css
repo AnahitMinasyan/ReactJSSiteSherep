@@ -87,13 +87,23 @@ section {
 
     position: absolute;
     margin-left: -75px;
+    background: transparent;
+    border: none;
+    color: white;
+    opacity: 0.8;
 
 }
 
 .SlideButtons .RightButton{
     position: absolute;
-    right: 75px
+    right: 75px;
+     background: transparent;
+        border: none;
+        color : white;
+          opacity: 0.8;
 }
+
+
 
 .sliderContent {
     display: flex;

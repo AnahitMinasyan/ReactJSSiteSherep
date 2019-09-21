@@ -8,23 +8,8 @@ import axios from "../../../../axios-orders";
 
 class AccordionSection extends Component {
 
-    state = {
-        data: null
-    }
-
-
-
-
-    componentDidMount (id) {
-        axios.get( 'https://sherepsite-project.firebaseio.com/career/' + id + '.json/')
-            .then( response => {
-                this.setState( { loadedPost: response.data } );
-            });
-    }
-
-
     onClick = () => {
-        this.props.onClick(this.state.loadedPost.label);
+        this.props.onClick(this.props.label);
     };
 
     render() {
@@ -37,7 +22,6 @@ class AccordionSection extends Component {
                     <div className={classes.AccordionSectionFontIcon}>
                         {!isOpen &&
                             <FontAwesomeIcon icon={faAngleDown}/>
-
                         }
                         {isOpen &&  <FontAwesomeIcon icon={faAngleUp}/>}
                     </div>

@@ -8,10 +8,10 @@ import MenuList from "../../components/Menu/MenuList/MenuList";
 import axios from "../../axios-orders";
 
 class MenuPage extends Component {
-
     state = {
-        data: null
-    }
+        data: null,
+        showData: null
+    };
 
     componentDidMount() {
         // axios.post('https://sherepsite-project.firebaseio.com/menu.json', {
@@ -20,16 +20,30 @@ class MenuPage extends Component {
         //     content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         //     price: '5000'
         // }).then(res => {
-            axios.get('https://sherepsite-project.firebaseio.com/menu.json/').then(res => {
-                let newData = res.data;
-                let newNames = [];
-                for (let key in newData) {
-                    newNames.push(newData[key])
-                }
-                this.setState({data: newNames})
-            })
-        // })
+        axios.get('https://sherepsite-project.firebaseio.com/menu.json/').then(res => {
+            this.filterData(res.data)
+        })
     }
+
+    filterData = (data) => {
+        let newNames = [];
+        for (let key in data) {
+            newNames.push(data[key])
+        }
+        this.setState({data: newNames}, () => {
+            this.changeType('food')
+        })
+    };
+
+    changeType = (type) => {
+        let finData = [];
+        this.state.data.map(el => {
+            if (el.category === type) {
+                finData.push(el)
+            }
+        });
+        this.setState({showData: finData})
+    };
     render() {
         return (
 
@@ -41,8 +55,8 @@ class MenuPage extends Component {
             <div className={classes.MenuPageList}>
                      <h1>Menu</h1>
                 <MenuNavigation/>
-                <MenuButtons/>
-                <MenuList/>
+                <MenuButtons changeType={el => this.changeType(el)}/>
+                <MenuList showData={this.state.showData}/>
             </div>
 
         </div>

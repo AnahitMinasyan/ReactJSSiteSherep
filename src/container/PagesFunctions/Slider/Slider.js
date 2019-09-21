@@ -7,7 +7,8 @@ import img0 from '../../../assets/images/sherep-5.png';
 import img1 from '../../../assets/images/sherep-3.png';
 import img2 from '../../../assets/images/sherep-7.png';
 import img3 from '../../../assets/images/sherep-8.png';
-import {faAngleLeft, faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import {faAngleDown, faAngleLeft, faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class Slider extends Component {
 
@@ -55,7 +56,9 @@ class Slider extends Component {
                         className={classes.LeftButton}
                         onClick={() => this.prevProperty()}
                         disabled={property.index === 0}
-                    >Prev</button>
+                    >
+                        <FontAwesomeIcon icon={faAngleLeft} style={{'width':'40px', 'height': '60px',  'opacity': '0.8'}}/>
+                    </button>
 
                 </div>
 
@@ -85,7 +88,9 @@ class Slider extends Component {
                         className={classes.RightButton}
                         onClick={() => this.nextProperty()}
                         disabled={property.index === properties.length-1}
-                    >Next</button>
+                    >
+                        <FontAwesomeIcon icon={faAngleRight}  style={{'width':'40px', 'height': '60px', 'opacity': '0.8'}}/>
+                    </button>
 
                 </div>
 

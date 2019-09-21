@@ -5,9 +5,9 @@ import classes from './MenuButtons.css'
 const MenuButtons = (props) => {
     return (
         <div className={classes.MenuButtons}>
-            <MenuItems link="/menu/food">food</MenuItems>
-            <MenuItems link="/menu/drinks">drinks</MenuItems>
-            <MenuItems link="/menu/banquet">banquet</MenuItems>
+            <MenuItems link="/menu/food" menuType={'food'} chooseCategory={(type) => props.changeType(type)}>food</MenuItems>
+            <MenuItems link="/menu/drinks" menuType={'drinks'} chooseCategory={(type) => props.changeType(type)}>drinks</MenuItems>
+            <MenuItems link="/menu/banquet" menuType={'banquet'} chooseCategory={(type) => props.changeType(type)}>banquet</MenuItems>
         </div>
     );
 };
