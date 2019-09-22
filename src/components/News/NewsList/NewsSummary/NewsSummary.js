@@ -11,7 +11,9 @@ const NewsSummary = (props) => {
                 <p className={classes.NewsSummaryText}>
                     {props.content}
                 </p>
-                <Link  to={props.link}>Details...</Link>
+                <div className={classes1.MediaListDetails}>
+                     <Link  to={props.link}>Details</Link>
+                </div>
             </article>
     );
 };

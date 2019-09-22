@@ -1,6 +1,6 @@
 .Input {
     width: 100%;
-    padding: 10px;
+    padding-bottom: 20px;
     box-sizing: border-box;
 }
 
@@ -29,11 +29,15 @@
         width: 570px;
         height: 100px;
         padding: 8px;
+        outline: none;
 }
 
 .InputElement:focus {
     outline: none;
-    background-color: #ccc;
+    /*background-color: #ccc;*/
+}
+.TextareaElement:focus {
+    outline:none;
 }
 
 .Invalid {

@@ -39,21 +39,16 @@ state = {
         let news =
             this.state.data ?
                 this.state.data.map(newsItem => {
-                    return(
-                        <li key={newsItem.id}>
+                    return(<li key={newsItem.id}>
                             <NewsSummary
                                 key={newsItem.id}
                                 date={newsItem.date}
                                 title={newsItem.title}
                                 content={newsItem.content}
                                 link = {`/news/` + newsItem.id}
-                                // id = {newsItem.id}
-                                clicked={() => this.postSelectedHandler( newsItem.id )}
+                                clicked={() => this.postSelectedHandler( newsItem.id )} />
 
-                            >
-                            </NewsSummary>
-                        </li>
-                    )
+                        </li>)
                 }) : null;
 
 
@@ -75,7 +70,5 @@ state = {
         );
     }
 }
-
-
 
 export default NewsPage;

@@ -14,6 +14,7 @@ import NewsPage from "./container/NewsPage/NewsPage";
 import NewsDetails from "./container/NewsPage/NewsDetails/NewsDetails";
 import CareerPage from "./container/CareerPage/CareerPage";
 import ContactPage from "./container/ContactPage/ContactPage";
+import Accordion from "./container/PagesFunctions/AccordionCareer/Accordion";
 
 
 
@@ -36,7 +37,7 @@ class App extends Component {
                         <Route path='/news' component={NewsPage} exact/>
                         <Route path='/news/:id' component={NewsDetails}/>
                         <Route path='/career' component={CareerPage}/>
-                        <Route path='/career/:id' component={CareerPage}/>
+                        <Route path='/career/:id' component={Accordion}/>
                         <Route path='/contact' component={ContactPage}/>
                     </Switch>
                 </Layout>

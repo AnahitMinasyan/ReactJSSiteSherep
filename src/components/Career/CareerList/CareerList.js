@@ -1,20 +1,22 @@
 import React from 'react';
 import classes from './CareerList.css'
 
-const CareerList = () => {
+const CareerList = (props) => {
     return (
         <div className={classes.CareerList}>
 
-            <h3>Position 1</h3>
-            <p>
+                        <div>
+                            <h3>{props.title}</h3>
+                            <p>
+                                {props.content}
+                            </p>
+                            <p>
+                                {props.date}
+                            </p>
+                        </div>
 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Alias animi, autem neque quis quisquam reiciendis totam. Deleniti incidunt mollitia quas sed soluta unde veritatis voluptas!
-                Cupiditate odio quisquam repellat voluptate!
-            </p>
-            <p>
-                Date: 09.09.2019
-            </p>
+
+
 
 
         </div>

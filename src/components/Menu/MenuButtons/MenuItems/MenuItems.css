@@ -2,10 +2,20 @@
 
 }
 
+.MenuButton {
+    background: transparent;
+        color: white;
+        border: 1px solid gray;
+       color: white;
+       padding: 8px 30px;
 
 
-.MenuButtons a:hover,
-.MenuButtons a:active,
-.MenuButtons a.active{
+}
+
+.MenuButton:hover,
+.MenuButton:active,
+.MenuButton.active
+.MenuButton:focus{
    background : gray;
 }
+

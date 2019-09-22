@@ -28,7 +28,7 @@ class NewsDetails extends Component {
     render(){
         return (this.state.loadedPost ? <div className={classes.NewsPage}>
             <div className={classes.NewsPageImg}>
-                {/*<img src={newsPage} alt=""/>*/}
+                <img src={newsPage} alt=""/>
             </div>
             <div className={classes.NewsPageContent}>
                 <h1>News</h1>

@@ -7,8 +7,9 @@ const MenuItems = (props) => {
 
     return (
         <div>
-            <li className={classes.MenuButtons}>
+            <li className={classes.MenuButtons} >
                 <button
+                    className={classes.MenuButton}
                     onClick={() => props.chooseCategory(props.menuType)}>
                     {props.children}
                 </button>
