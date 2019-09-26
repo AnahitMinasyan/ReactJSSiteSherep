@@ -8,3 +8,10 @@
 .DropdownLinks span{
     margin-top: 5px;
 }
+
+.MenuItem {
+    list-style: none;
+}
+.dropdownForm{
+    width: 100px;
+}

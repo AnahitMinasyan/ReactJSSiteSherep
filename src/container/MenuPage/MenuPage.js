@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import classes from "../MenuPage/MenuPage.css";
 import MenuImg from "../../assets/images/shere-6.png";
-import Slider from "../PagesFunctions/Slider/Slider";
 import MenuNavigation from "../../components/Menu/MenuNavigation/MenuNavigation";
 import MenuButtons from "../../components/Menu/MenuButtons/MenuButtons";
 import MenuList from "../../components/Menu/MenuList/MenuList";

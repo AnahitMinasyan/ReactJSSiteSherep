@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import classes from './CareerPage.css';
 import careerImg  from '../../assets/images/sherep-10.png';
-import CareerList from "../../components/Career/CareerList/CareerList";
 import Accordion from "../PagesFunctions/AccordionCareer/Accordion";
 import axios from "../../axios-orders";
-import MediaSummary from "../MediaEventsPage/MediaEventsPage";
 
 
 class CareerPage extends Component {

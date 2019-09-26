@@ -1,1 +1,0 @@
-export { fetchNews, fetchNewsItem  } from './newsAction';

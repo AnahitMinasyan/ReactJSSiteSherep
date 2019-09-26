@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import classes from "../NewsPage.css";
 import newsPage from "../../../assets/images/sherep-8.png";
-import NewsSummary from "../NewsPage";
 import axios from 'axios';
-import {Link} from "react-router-dom";
 
 class NewsDetails extends Component {
 

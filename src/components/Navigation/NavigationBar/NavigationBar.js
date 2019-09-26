@@ -1,8 +1,6 @@
 import React from 'react';
 import classes from './NavigationBar.css';
-import NavigationItems from "../NavigationItems/NavigationItems";
 import Backdrop from "./Backdrop/Backdrop";
-import DrawerToggle from "../Toolbar/Toolbar";
 
 
 const NavigationBar = (props) => {

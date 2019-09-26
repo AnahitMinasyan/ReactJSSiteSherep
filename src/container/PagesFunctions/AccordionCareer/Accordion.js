@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleDown, faAngleUp} from "@fortawesome/free-solid-svg-icons";
 import classes from './Accordion.css';
-import CareerList from "../../../components/Career/CareerList/CareerList";
 
 
 class Accordion extends Component {
@@ -29,10 +28,9 @@ class Accordion extends Component {
             <div key={item.id}>
                 <div className={classes.AccordionLabel}  onClick={() =>this.handleClick(item.id)}>
                     { item.label}
-
                     <FontAwesomeIcon icon={faAngleDown}/>
                 </div>
-                < div className={[classes.AccordionContent, this.state.opened_item_id === item.id ? classes.AccordionSectionOPen : classes.AccordionSectionClose].join(' ')}>
+                < div className={[classes.AccordionContent, this.state.opened_item_id === item.id ? classes.AccordionSectionOpen : classes.AccordionSectionClose].join(' ')}>
                     <div className={classes.CareerList}>
 
                         <div>

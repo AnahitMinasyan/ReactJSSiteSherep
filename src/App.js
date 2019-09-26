@@ -1,23 +1,17 @@
 import React, {Component} from 'react';
-import NavigationBar from "./components/Navigation/NavigationBar/NavigationBar";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
-import NavigationItems from "./components/Navigation/NavigationItems/NavigationItems";
-import Layout from "./hoc/Layout/Layout";
+import Layout from "./Layout/Layout";
 import HomePage from "./container/HomePage/HomePage";
 import AboutPage from "./container/AboutPage/AboutPage";
 import GalleryPage from "./container/GalleryPage/GalleryPage";
 import MenuPage from "./container/MenuPage/MenuPage";
 import MediaEventsPage from "./container/MediaEventsPage/MediaEventsPage";
-// import MediaDetails from "./components/Media/MediaDetails/MediaDetails";
 import MediaEvent from "./container/MediaEventsPage/MediaEvent/MediaEvent";
 import NewsPage from "./container/NewsPage/NewsPage";
 import NewsDetails from "./container/NewsPage/NewsDetails/NewsDetails";
 import CareerPage from "./container/CareerPage/CareerPage";
 import ContactPage from "./container/ContactPage/ContactPage";
 import Accordion from "./container/PagesFunctions/AccordionCareer/Accordion";
-
-
-
 
 class App extends Component {
     render() {

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 import classes from './Layout.css';
-import NavigationBar from '../../components/Navigation/NavigationBar/NavigationBar';
+import NavigationBar from '../components/Navigation/NavigationBar/NavigationBar';
 
-import Footer from '../../components/footer/Footer';
-import classesContact from '../../container/ContactPage/ContactPage.css';
-import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
+import Footer from '../components/footer/Footer';
+import classesContact from '../container/ContactPage/ContactPage.css';
+import Toolbar from "../components/Navigation/Toolbar/Toolbar";
 
 
 

@@ -4,6 +4,7 @@
     color: white;
     justify-content: flex-end;
     height: 50px;
+    align-items: flex-end;
 }
 
 .SearchLanguage p {

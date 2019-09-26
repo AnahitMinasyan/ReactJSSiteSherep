@@ -1,6 +1,6 @@
  import React from 'react';
 import classes from './SearchLanguage.css';
-import DropDownLanguage from "../../../../container/PagesFunctions/DropDownLanguage/DropDownLanguage";
+ import DropDownLink from "./DropDownLink/DropDownLink";
 
 
 
@@ -8,12 +8,11 @@ const SearchLanguage = () => {
     return (
         <div className={classes.SearchLanguage}>
             <div >
-
                 <p>Search</p>
             </div>
 
             <div>
-                <DropDownLanguage/>
+                <DropDownLink/>
             </div>
 
 

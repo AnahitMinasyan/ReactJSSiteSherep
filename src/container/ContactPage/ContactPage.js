@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 
 import classes from './ContactPage.css';
-import classesFooter from '../../components/footer/footer.css';
 import MapContainer from "../PagesFunctions/MapCreator/MapContainer";
 import Input from "../../components/Contact/input";
 import axios from "../../axios-orders";

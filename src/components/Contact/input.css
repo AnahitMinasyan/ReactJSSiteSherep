@@ -33,6 +33,18 @@
         outline: none;
 }
 
+.SelectElement{
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    opacity: 0.8;
+    font-size: 14px;
+    width: 100px;
+    /* padding: 8px; */
+    border-bottom: 1px solid gray;
+}
+
 .InputElement:focus {
     outline: none;
     /*background-color: #ccc;*/
@@ -45,6 +57,8 @@
     border: 1px solid red;
     background-color: #FDA49A;
 }
+
+
 
 
 @media (max-width: 1320px) {
