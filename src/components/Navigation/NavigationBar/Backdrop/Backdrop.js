@@ -7,7 +7,10 @@ import NavigationItems from "../../NavigationItems/NavigationItems";
 const Backdrop = (props) => (
     props.show ?
         <div className={classes.Backdrop} onClick={props.clicked}>
-            <FontAwesomeIcon icon={faAngleRight} style={{'width':'40px', 'height': '40px', 'opacity': '0.8', 'color': 'white'}}/>
+            <div className={classes.BackdropIcon}>
+                <FontAwesomeIcon icon={faAngleRight} style={{'width':'40px', 'height': '40px', 'opacity': '0.8', 'color': 'white'}}/>
+            </div>
+
             <nav>
                 <NavigationItems/>
             </nav>

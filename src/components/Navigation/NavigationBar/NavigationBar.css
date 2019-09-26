@@ -59,6 +59,7 @@
         margin: 0;
         background-color: black;
         text-align: center;
+        height: 50%;
     }
     .NavigationBar nav {
         height: 100%;

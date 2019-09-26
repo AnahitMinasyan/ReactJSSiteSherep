@@ -66,10 +66,22 @@
     }
 }
 @media (max-width: 992px) {
+    .GalleryPageBack{
+        width: 48%;
+    }
+
 
     .GalleryPageSlider h1 {
         font-size: 40px;
     }
+
+    .GalleryPageSlider img {
+        width: 320px;
+        height: 320px;
+
+
+    }
+
 }
 @media (max-width: 768px) {
 .GalleryPage{
@@ -93,9 +105,18 @@
         font-size: 36px;
     }
 }
+
+
+
 @media (max-width: 600px) {
     .GalleryPageSlider h1 {
         font-size: 32px;
+    }
+    .GalleryPageSlider img {
+        width: 255px;
+        height: 320px;
+
+
     }
 }
 

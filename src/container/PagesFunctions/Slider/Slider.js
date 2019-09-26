@@ -50,14 +50,14 @@ class Slider extends Component {
         return (
             <div  className={classes.sliderContent}>
 
-                <div className={classes.SlideButtons}>
+                <div className={[classes.SlideButtons, classes.SlideButtonsLeft].join(' ')}>
 
                     <button
                         className={classes.LeftButton}
                         onClick={() => this.prevProperty()}
                         disabled={property.index === 0}
                     >
-                        <FontAwesomeIcon icon={faAngleLeft} style={{'width':'40px', 'height': '60px',  'opacity': '0.8'}}/>
+                        <FontAwesomeIcon icon={faAngleLeft} style={{'width':'35px', 'height': '45px',  'opacity': '0.8'}}/>
                     </button>
 
                 </div>
@@ -82,14 +82,14 @@ class Slider extends Component {
 
 
                     </div>
-                <div className={classes.SlideButtons}>
+                <div className={[classes.SlideButtons, classes.SlideButtonsRight].join(' ')}>
 
                     <button
                         className={classes.RightButton}
                         onClick={() => this.nextProperty()}
                         disabled={property.index === properties.length-1}
                     >
-                        <FontAwesomeIcon icon={faAngleRight}  style={{'width':'40px', 'height': '60px', 'opacity': '0.8'}}/>
+                        <FontAwesomeIcon icon={faAngleRight}  style={{'width':'35px', 'height': '45px', 'opacity': '0.8'}}/>
                     </button>
 
                 </div>

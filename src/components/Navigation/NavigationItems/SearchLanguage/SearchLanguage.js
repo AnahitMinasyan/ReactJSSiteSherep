@@ -7,9 +7,9 @@ import classes from './SearchLanguage.css';
 const SearchLanguage = () => {
     return (
         <div className={classes.SearchLanguage}>
-            <div >
-                <p>Search</p>
-            </div>
+            {/*<div >*/}
+                {/*<p>Search</p>*/}
+            {/*</div>*/}
 
             <div>
                 <DropDownLink/>

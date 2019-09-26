@@ -17,3 +17,10 @@
 .SearchLanguage i {
     color: white;
 }
+
+@media (max-width: 768px) {
+    .SearchLanguage{
+        justify-content: center;
+        align-items: center;
+    }
+}

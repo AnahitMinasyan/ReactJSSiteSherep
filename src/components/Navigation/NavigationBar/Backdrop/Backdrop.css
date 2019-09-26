@@ -8,6 +8,11 @@
     background-color: transparent;
     /*margin-right: 100px;*/
 }
+
+.BackdropIcon {
+    text-align: end;
+
+}
 .Backdrop i{
     color: white;
     width: 20px;
