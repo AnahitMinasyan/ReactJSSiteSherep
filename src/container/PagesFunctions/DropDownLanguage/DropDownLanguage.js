@@ -4,6 +4,7 @@ import classes from './DropDownLanguage.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faAngleDown, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
+import DropDownItems from "../../../components/Navigation/NavigationItems/SearchLanguage/DropDownLink/DropDownItems";
 
 class DropDownLanguage extends Component {
     constructor() {
@@ -65,12 +66,15 @@ class DropDownLanguage extends Component {
                     this.dropdownMenu = element;
                 }}>
                 {this.dropdownLinks.links.map(dropdownLink => (
-                    <DropDownLink
-                        onClick ={() => this.setLanguage(dropdownLink)}
-                        href={dropdownLink.to}
-                        linkText={dropdownLink.link}
-                        key={dropdownLink.link}
+                    <li>
+                        <DropDownItems
+                            onClick ={() => this.setLanguage(dropdownLink)}
+                            href={dropdownLink.to}
+                            linkText={dropdownLink.link}
+                            key={dropdownLink.link}
                         />
+                    </li>
+
                 ))}
             </div>
         }
@@ -80,7 +84,10 @@ class DropDownLanguage extends Component {
                     <FontAwesomeIcon icon={faAngleDown}/>
                     {this.state.selectedLanguage.link}
                 </button>
-                {dropdownMenuShow}
+                <ul>
+                    {dropdownMenuShow}
+                </ul>
+
             </div>
         );
     }

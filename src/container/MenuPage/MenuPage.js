@@ -44,6 +44,7 @@ class MenuPage extends Component {
         });
         this.setState({showData: finData})
     };
+
     render() {
         return (
 
@@ -54,7 +55,11 @@ class MenuPage extends Component {
 
             <div className={classes.MenuPageList}>
                      <h1>Menu</h1>
-                <MenuNavigation/>
+                <div>
+                    <MenuNavigation/>
+                </div>
+
+
                 <MenuButtons changeType={el => this.changeType(el)}/>
                 <MenuList showData={this.state.showData}/>
             </div>

@@ -4,9 +4,16 @@ import classes from './DropDownLink.css';
 
 const DropDownLink = (props) => {
     return (
-        <NavLink className={classes.DropdownLinks} to={props.link} exact>
-            <span>{props.linkText}</span>
-        </NavLink>
+
+
+            <div>
+                <li className={classes.MenuItem } >
+                    <NavLink className={classes.DropdownLinks} to={props.link} exact={props.exact}  activeClassName={classes.active}>
+                        <span>{props.linkText}</span>
+                    </NavLink>
+                </li>
+            </div>
+
     );
 };
 

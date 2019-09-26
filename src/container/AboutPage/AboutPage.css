@@ -20,8 +20,11 @@
 .AboutPageContent{
     background: black;
     width: 40%;
-    margin: 200px auto;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .AboutPageContent h1 {
@@ -75,4 +78,87 @@
 
 .AboutPageContent p {
     margin-bottom: 20px;
+}
+
+@media (max-width: 1320px) {
+    .AboutPageContent p{
+        font-size: 17px;
+    }
+    .AboutPageContent h1{
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .AboutPageContent p{
+        font-size: 16px;
+    }
+    .AboutPageContent h1{
+        font-size: 45px;
+    }
+}
+@media (max-width: 992px) {
+    .AboutPageContent p{
+        font-size: 16px;
+    }
+    .AboutPageContent h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .AboutPage {
+        flex-direction: column;
+        height: 0;
+    }
+    .AboutPageImg{
+        width: 100%;
+        height: 300px;
+    }
+
+
+    .AboutPageImg img {
+        width: 100%;
+        /*height: 100wh;*/
+        height: 300px;
+    }
+    .AboutPageContent{
+
+        width: 90%;
+        margin: 0px auto;
+
+    }
+    .AboutText {
+        height: 350px;
+
+    }
+
+    .AboutPageContent p {
+
+        font-size: 15px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .AboutPageContent{
+
+        width: 95%;
+        margin: 0px auto;
+
+    }
+    .AboutText {
+        height: 350px;
+
+    }
+
+    AboutPageContent h1{
+        font-size: 32px;
+    }
+
+    .AboutPageContent p {
+
+        font-size: 14px;
+
+    }
 }

@@ -20,9 +20,13 @@
 .MediaPageContent {
     background: black;
     width: 40%;
-    margin: 200px auto;
+    margin: 0px auto;
     color: white;
-    opacity:0.8
+    opacity:0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .MediaPageContent h1{
@@ -88,4 +92,136 @@ MediaAllContent {
 
 .MediaData{
     padding: 0;
+}
+
+
+@media (max-width: 1320px) {
+    .MediaPage {
+
+    }
+
+    .MediaPageImg{
+
+    }
+
+    .MediaPageImg img {
+
+    }
+
+    .MediaPageContent {
+
+    }
+
+    .MediaPageContent h1{
+        font-size: 50px;
+
+    }
+
+    .MediaAllContent{
+
+    }
+}
+@media (max-width: 1200px) {
+    .MediaPage {
+
+    }
+
+    .MediaPageImg{
+
+    }
+
+    .MediaPageImg img {
+
+    }
+
+    .MediaPageContent {
+
+    }
+
+    .MediaPageContent h1{
+        font-size: 45px;
+    }
+
+    .MediaAllContent{
+
+    }
+}
+@media (max-width: 992px) {
+    .MediaPage {
+
+    }
+
+    .MediaPageImg{
+
+    }
+
+    .MediaPageImg img {
+
+    }
+
+    .MediaPageContent {
+
+    }
+
+    .MediaPageContent h1{
+        font-size: 40px;
+    }
+
+    .MediaAllContent{
+
+    }
+}
+@media (max-width: 768px) {
+    .MediaPage {
+    flex-direction: column;
+}
+
+.MediaPageImg{
+    width: 100%;
+    height: 300px;
+}
+
+.MediaPageImg img {
+    width: 100%;
+    /*height: 100wh;*/
+    height: 300px;
+}
+
+.MediaPageContent {
+    width: 90%;
+    margin: 0px auto;
+}
+
+    .MediaPageContent h1{
+        font-size: 35px;
+    }
+
+    .MediaAllContent{
+        height: 350px;
+    }
+}
+@media (max-width: 600px) {
+    .MediaPage {
+
+    }
+
+    .MediaPageImg{
+
+    }
+
+    .MediaPageImg img {
+
+    }
+
+    .MediaPageContent {
+
+    }
+
+    .MediaPageContent h1{
+        font-size: 32px;
+    }
+
+    .MediaAllContent{
+
+    }
 }

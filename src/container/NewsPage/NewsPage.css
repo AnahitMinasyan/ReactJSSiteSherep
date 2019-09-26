@@ -21,7 +21,11 @@
 .NewsPageContent {
     background: black;
     width: 40%;
-    margin: 200px auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -85,4 +89,142 @@
         border: 1px solid gray;
         background: gray;
         cursor: pointer;
+}
+
+@media(max-width: 1320px){
+
+    .NewsPage {
+
+    }
+
+    .NewsPageImg {
+
+    }
+
+    .NewsPageImg img {
+
+
+    }
+
+    .NewsPageContent {
+
+    }
+
+
+    .NewsPageContent h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    .NewsAllContent{
+
+    }
+
+}
+@media(max-width: 1200px){
+
+    .NewsPage {
+
+    }
+
+    .NewsPageImg {
+
+    }
+
+    .NewsPageImg img {
+
+
+    }
+
+    .NewsPageContent {
+
+    }
+
+
+    .NewsPageContent h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    .NewsAllContent{
+
+    }
+}
+@media(max-width: 992px){
+
+    .NewsPage {
+
+    }
+
+    .NewsPageImg {
+
+    }
+
+    .NewsPageImg img {
+
+
+    }
+
+    .NewsPageContent {
+
+    }
+
+
+    .NewsPageContent h1 {
+
+        font-size: 50px;
+
+    }
+
+
+    .NewsAllContent{
+
+    }
+
+}
+@media(max-width: 768px){
+
+    .NewsPage {
+        flex-direction: column;
+
+    }
+
+    .NewsPageImg {
+        width: 100%;
+        height: 300px;
+    }
+
+    .NewsPageImg img {
+        width: 100%;
+        /*height: 100wh;*/
+        height: 300px;
+
+    }
+
+    .NewsPageContent {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+
+    .NewsPageContent h1 {
+
+        font-size: 35px;
+
+    }
+
+
+    .NewsAllContent{
+        height: 350px;
+    }
+}
+
+@media(max-width: 600px){
+    .NewsPageContent h1{
+        font-size: 32px;
+    }
 }

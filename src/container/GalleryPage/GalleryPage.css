@@ -20,11 +20,14 @@
 .GalleryPageSlider{
 
     background: black;
-    /*width: 40%;*/
-    margin: 200px auto;
+    /* width: 40%; */
+    margin: 0px auto;
     overflow: hidden;
-     /* width: 480px;*/
-
+    /* width: 480px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -49,3 +52,50 @@
      display: flex;
     flex-direction: row;
 }
+
+@media (max-width: 1320px) {
+
+    .GalleryPageSlider h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1200px) {
+
+    .GalleryPageSlider h1 {
+        font-size: 45px;
+    }
+}
+@media (max-width: 992px) {
+
+    .GalleryPageSlider h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+.GalleryPage{
+    flex-direction: column;
+
+}
+
+    .GalleryPageBack{
+        width: 100%;
+        height: 300px;
+    }
+
+
+    .GalleryPageBack img {
+        width: 100%;
+        /*height: 100wh;*/
+        height: 300px;
+    }
+
+    .GalleryPageSlider h1 {
+        font-size: 36px;
+    }
+}
+@media (max-width: 600px) {
+    .GalleryPageSlider h1 {
+        font-size: 32px;
+    }
+}
+

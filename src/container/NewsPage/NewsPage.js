@@ -3,12 +3,6 @@ import classes from './NewsPage.css';
 import newsPage from "../../assets/images/sherep-8.png";
 import axios from '../../axios-orders';
 import NewsSummary from "../../components/News/NewsList/NewsSummary/NewsSummary";
-import {Link} from "react-router-dom";
-import { Route } from 'react-router-dom';
-
-
-
-
 
 
 class NewsPage extends Component {

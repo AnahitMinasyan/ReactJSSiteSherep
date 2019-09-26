@@ -1,11 +1,12 @@
 .MenuAllList{
-    height: 350px;
+    height: 270px;
     padding-top: 30px;
     scroll-behavior: smooth;
     overflow: scroll;
     scroll-snap-type: y;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
     width: 6px;
     padding-top: 30px;
@@ -29,16 +30,53 @@
     font-size: 16px;
     opacity: 0.8;
     justify-content: space-between;
+    padding-right: 20px;
 
 }
 
 
 .MenuContent {
     color: white;
-    font-size: 16px;
+
     opacity: 0.8;
 }
 
 .MenuPrice {
+
+}
+
+@media (max-width: 1320px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    .MenuContent {
+        color: white;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+    .MenuPrice {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .MenuContent {
+        color: white;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .MenuPrice {
+        font-size: 14px;
+    }
+    .MenuAllList{
+        width: 90%;
+    }
+
+}
+@media (max-width: 600px) {
 
 }

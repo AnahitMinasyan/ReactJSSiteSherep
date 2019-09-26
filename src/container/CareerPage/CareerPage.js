@@ -29,11 +29,7 @@ class CareerPage extends Component {
     render() {
         console.log(this.state.data);
         let career =
-            this.state.data ?
-                this.state.data.map(post =>
-                    <Accordion post={post} key={post.id}
-                    />
-                ) : null;
+            this.state.data ? <Accordion posts={this.state.data} />: null ;
 
         return (
             <div className={classes.CareerPage}>

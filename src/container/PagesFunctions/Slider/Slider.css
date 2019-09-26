@@ -109,3 +109,64 @@ section {
     display: flex;
     flex-direction: row
 }
+
+
+
+
+@media (max-width: 1320px) {
+
+    .SlideButtons .LeftButton {
+        margin-left: -60px;
+    }
+
+    .SlideButtons .RightButton{
+
+        right: 35px;
+
+    }
+}
+@media (max-width: 1200px) {
+    .SlideButtons .LeftButton {
+        margin-left: -60px;
+    }
+
+    .SlideButtons .RightButton{
+
+        right: 0px;
+
+    }
+
+}
+@media (max-width: 992px) {
+
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 600px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

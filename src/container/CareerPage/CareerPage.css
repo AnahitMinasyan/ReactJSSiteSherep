@@ -1,34 +1,87 @@
 .CareerPage{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    position: fixed;
-    height: 100vh;
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     position: fixed;
+     height: 100vh;
+ }
+
+ .CareerPageImg{
+     width: 50%;
+     height: 100vh;
+ }
+
+ .CareerPageImg img {
+     width: 95%;
+     /*height: 100wh;*/
+     height: 100%;
+ }
+
+ .CareerPageContent {
+     background: black;
+     width: 40%;
+     margin: 0px auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .CareerPageContent h1{
+     color: white;
+     text-align: center;
+     font-size: 54px;
+     font-weight: 200;
+     opacity: 0.8;
+     text-transform: uppercase;
+ }
+
+@media(max-width: 1320px){
+    .CareerPageContent h1{
+        font-size: 50px;
+    }
+
+
 }
+@media(max-width: 1200px){
+    .CareerPageContent h1{
+        font-size: 45px;
+    }
 
-.CareerPageImg{
-    width: 50%;
-    height: 100vh;
 }
+@media(max-width: 992px){
+    .CareerPageContent h1{
+        font-size: 40px;
+    }
 
-.CareerPageImg img {
-    width: 95%;
-    /*height: 100wh;*/
-    height: 100%;
 }
+@media(max-width: 768px){
+    .CareerPage{
+        flex-direction: column;
+    }
+    .CareerPageContent h1{
+        font-size: 35px;
+    }
 
-.CareerPageContent {
-    background: black;
-    width: 40%;
-    margin: 200px auto;
+    .CareerPageImg{
+        width: 100%;
+        height: 300px;
+    }
+
+    .CareerPageImg img {
+        width: 100%;
+        /*height: 100wh;*/
+        height: 300px;
+    }
+    .CareerPageContent {
+        width: 90%;
+    }
+
 }
+@media(max-width: 768px){
+    .CareerPageContent h1{
+        font-size: 32px;
+    }
 
-
-.CareerPageContent h1{
-    color: white;
-    text-align: center;
-    font-size: 54px;
-    font-weight: 200;
-    opacity: 0.8;
-    text-transform: uppercase;
 }

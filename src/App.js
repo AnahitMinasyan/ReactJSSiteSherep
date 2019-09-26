@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import NavigationBar from "./components/Navigation/NavigationBar";
+import NavigationBar from "./components/Navigation/NavigationBar/NavigationBar";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import NavigationItems from "./components/Navigation/NavigationItems/NavigationItems";
 import Layout from "./hoc/Layout/Layout";

@@ -1,10 +1,6 @@
-import React from 'react';
+ import React from 'react';
 import classes from './SearchLanguage.css';
 import DropDownLanguage from "../../../../container/PagesFunctions/DropDownLanguage/DropDownLanguage";
-
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-
-
 
 
 
@@ -26,3 +22,4 @@ const SearchLanguage = () => {
 };
 
 export default SearchLanguage;
+

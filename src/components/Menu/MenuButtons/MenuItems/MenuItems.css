@@ -19,3 +19,30 @@
    background : gray;
 }
 
+@media (max-width: 1320px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    .MenuButton {
+
+        padding: 8px 25px;
+
+
+    }
+
+}
+@media (max-width: 768px) {
+    .MenuButton {
+
+        padding: 8px 15px;
+
+
+    }
+
+}
+@media (max-width: 600px) {
+
+}

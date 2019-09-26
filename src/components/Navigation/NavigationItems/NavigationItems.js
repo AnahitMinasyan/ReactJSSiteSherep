@@ -12,9 +12,9 @@ const NavigationItems = () => {
     return (
         <div className={classes.NavigationAllItems}>
 
-            <div>
-                <SearchLanguage/>
-            </div>
+            {/*<div>*/}
+            {/*    <SearchLanguage/>*/}
+            {/*</div>*/}
             <ul className={classes.NavigationItems}>
                 {/*<NavigationItem link="/">Home</NavigationItem>*/}
                 <NavigationItem link="/about">About</NavigationItem>
